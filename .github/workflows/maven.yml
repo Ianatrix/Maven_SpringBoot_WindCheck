@@ -1,4 +1,4 @@
-name: FatJar bauen
+name: FatJar builden
 
 on:
   push:
@@ -34,4 +34,5 @@ jobs:
         path: target/windchill-*-SNAPSHOT.jar
         if-no-files-found: error
         retention-days: 3
+
 
